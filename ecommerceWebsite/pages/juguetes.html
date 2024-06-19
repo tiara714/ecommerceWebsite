@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juguetes - TodoEnUno</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-dark text-white p-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="h3">TodoEnUno</h1>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link text-white" href="../index.html">Inicio</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<main>
+     <!-- Carousel de Bootstrap -->
+    <section class="container my-4">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../img/libro1.webp" class="d-block w-30" alt="Libro">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Feroz Feroz! - Buenas Noches, de Cinetto, Liliana. Editorial Norma, tapa blanda en español, 2017</h5>
+                        <p>FEROZ... ¡FEROZ! - BUENAS NOCHES 978-987-545-749-2
+                            Edad recomendada: A partir de 3 años</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/barbie1.webp" class="d-block w-30" alt="Barbie">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Barbie Fantasy hair Mattel GHN04</h5>
+                        <p>Aviso legal: Recomendado a partir de los 3 años.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/jugueteDidáctico1.webp" class="d-block w-30" alt="Juguete Montesori">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Cubo Didactico Con 6 Actividades Juguete Educativo Motesori Color Multicolor</h5>
+                        <p>Marca ViaBebe; Modelo CC6636; Multicolor</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+    <!-- Barra de Búsqueda -->
+    <section class="container my-4">
+        <div class="search-bar row">
+            <div class="col-md-10">
+                <input type="text" class="form-control" placeholder="Buscar productos...">
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-warning btn-block">Buscar</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categorías -->
+    <section class="container">
+        <div class="categories d-flex justify-content-around">
+            <a href="../index.html">Inicio</a>
+            <a href="electrónica.html">Electrónica</a>
+            <a href="moda.html">Moda</a>
+            <a href="juguetes.html">Juguetes</a>
+        </div>
+    </section>
+
+    <!-- Contenido de Juguetes -->
+    <section class="container my-4">
+        <h2 class="my-4">Juguetes</h2>
+        <p>Encuentra los mejores juguetes para todas las edades.</p>
+
+        <!-- Productos destacados -->
+        <div class="row">
+            <div class="col-md-4 product-card">
+                <div class="card">
+                    <img src="../img/jugueteConstrucción1.webp" class="card-img-top" alt="Juguete Construcción">
+                    <div class="card-body">
+                        <h5 class="card-title">Vial Constructor + Frontal + Tráiler + Retro Duravit 362 Color Amarillo </h5>
+                        <p class="card-text">362 frontal + trailer + retro amarillo duravit - del tomate; incluye camión volcador mini, una excavadora mini y un trailer de 32cm.</p>
+                        <p class="text-success">$9.216</p>
+                        <a href="#" class="btn btn-warning">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 product-card">
+                <div class="card">
+                    <img src="../img/peluche1.webp" class="card-img-top" alt="Peluche Bluey">
+                    <div class="card-body">
+                        <h5 class="card-title">Bluey Peluche Interactivo Con Sonidos 30cm</h5>
+                        <p class="card-text">Potencia tus sentidos: Los sonidos harán que tu peluche cobre vida alegrando cada momento compartido.</p>
+                        <p class="text-success">$63.899</p>
+                        <a href="#" class="btn btn-warning">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 product-card">
+                <div class="card">
+                    <img src="../img/kitArte1.webp" class="card-img-top" alt="Kit Arte">
+                    <div class="card-body">
+                        <h5 class="card-title">Kit Arte 42 Piezas Niños Set Infantil+ Para Pintar Actividad</h5>
+                        <p class="card-text">CONTIENE: 12 Acuarelas, 18 Crayones, 6 Fibras, 1 Goma, 1 Saca puntas, 1 clip, 1 cola plástica</p>
+                        <p class="text-success">$7.450</p>
+                        <a href="#" class="btn btn-warning">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h5>TodoEnUno</h5>
+              <p>La mejor tienda para encontrar ropa, joyería, electrónica y más.</p>
+              <p>Dirección: Cañada de Gomez 6754, CABA, Argentina</p>
+              <p>Teléfono: 11 7456-7890</p>
+              <p>Email: todoenuno@gmail.com</p>
+            </div>
+          </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

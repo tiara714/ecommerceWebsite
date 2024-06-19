@@ -1,0 +1,135 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+.nav-link {
+    font-weight: 700;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* Colores personalizados */
+.bg-dark {
+    background-color: #2C3E50; /* Azul Oscuro */
+}
+
+.bg-light {
+    background-color: #ECF0F1; /* Gris Claro */
+}
+
+.btn-warning {
+    background-color: #E67E22; /* Naranja */
+    border-color: #E67E22;
+}
+
+.btn-warning:hover {
+    background-color: #d35400; /* Naranja Oscuro */
+    border-color: #d35400;
+}
+
+.text-success {
+    color: #2ECC71; /* Verde */
+}
+
+.text-muted {
+    color: #BDC3C7; /* Gris Medio */
+}
+
+/* Ajustes de espaciado */
+.section-title {
+    margin-bottom: 2rem;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+/* Ajustes de navegación */
+.navbar {
+    padding: 1rem;
+}
+
+.navbar-nav .nav-item + .nav-item {
+    margin-left: 1rem;
+}
+
+/* Barra de búsqueda */
+.search-bar {
+    margin: 1.5rem 0;
+}
+
+.search-bar .form-control {
+    border-radius: 0;
+}
+
+.search-bar .btn {
+    border-radius: 0;
+}
+
+/* Ajustes de categorías */
+.categories {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+}
+
+.categories a {
+    color: #2C3E50; /* Azul Oscuro */
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.categories a:hover {
+    text-decoration: underline;
+}
+
+/* Productos */
+.product-card {
+    margin-bottom: 2rem;
+}
+
+.product-card img {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+/* Footer */
+footer a {
+    color: #ECF0F1; /* Gris Claro */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .social-icons a {
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+    color: #ECF0F1; /* Gris Claro */
+}
+
+footer .social-icons a:hover {
+    color: #BDC3C7; /* Gris Medio */
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
